@@ -18,6 +18,7 @@ public class LevelButtonTrigger : MonoBehaviour
             if (AlreadyTrigger) return;
             OnTrigger?.Invoke();
             AlreadyTrigger = SingleTrigger;
+            
 
         }
     }

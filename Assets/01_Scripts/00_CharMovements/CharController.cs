@@ -9,6 +9,7 @@ public class CharController : MonoBehaviour
     private HorizontalMovement HM_Movement;
     private CharCollisionsDetections CCD_Collisions;
     private AnimsController AC_Animations;
+    [SerializeField] private Vector3 startSize;
 
 
     private void Start()
@@ -43,6 +44,7 @@ public class CharController : MonoBehaviour
     public void PlayChar()
     {
         transform.parent = null;
+        transform.localScale = startSize;
         HM_Movement.StartMovement();
         AC_Animations.PlayFalling();
     }

@@ -6,28 +6,25 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/00_Scenes/DebugRoom.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
     path: Assets/00_Scenes/Bootstrap.unity
     guid: e8be4c2b020226a419e99ced85151a7c
-  - enabled: 1
-    path: Assets/00_Scenes/LevelSelection.unity
-    guid: d485a15769dd02c4ea6ea0e25223b425
   - enabled: 1
     path: Assets/00_Scenes/MainMenu.unity
     guid: bd84e53022407e44c9ae9b379d9d726d
   - enabled: 1
-    path: Assets/00_Scenes/Tutorial_Level_1.unity
+    path: Assets/00_Scenes/LevelSelection.unity
+    guid: d485a15769dd02c4ea6ea0e25223b425
+  - enabled: 1
+    path: Assets/00_Scenes/00_Tutorials/Tutorial_Level_1.unity
     guid: 1d29d505de5a698418ea16a59f816381
   - enabled: 1
-    path: Assets/00_Scenes/Tutorial_Level_2.unity
+    path: Assets/00_Scenes/00_Tutorials/Tutorial_Level_2.unity
     guid: 71f5f5813a27817418db9925c0d999e9
   - enabled: 1
-    path: Assets/00_Scenes/Tutorial_Level_3.unity
+    path: Assets/00_Scenes/00_Tutorials/Tutorial_Level_3.unity
     guid: 2ac3fd50c7f3db64d9391e031c23d1a1
   - enabled: 1
-    path: Assets/00_Scenes/Tutorial_Level_4.unity
+    path: Assets/00_Scenes/00_Tutorials/Tutorial_Level_4.unity
     guid: b28a5dac201f45e428037f67d869b4e0
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
