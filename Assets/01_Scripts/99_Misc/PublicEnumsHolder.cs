@@ -7,6 +7,10 @@ public enum Scenes
     Tutorial_2 = 4,
     Tutorial_3 = 5,
     Tutorial_4 = 6,
+    Level_1 = 7,
+    Level_2 = 8,
+    Level_3 = 9,
+    Level_4 = 10,
     
     
 }
